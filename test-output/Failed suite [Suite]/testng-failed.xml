@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Suite]]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="Utilities.ExtentReport"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)(failed)">
+    <classes>
+      <class name="TestClass.Idle_ResourcesTestClass">
+        <methods>
+          <include name="At_Idle_resources_page_verify_the_values_shown_at_first_section_of_the_Active_Idle_Resources_page"/>
+          <include name="signoutformfinops"/>
+          <include name="closebrowser"/>
+          <include name="Verify_the_Savings_Available_values_shown_at_first_section_of_the_Active_Idle_Resources_Page"/>
+          <include name="Verify_on_accepting_the_Idle_resource_savings_should_be_decreased"/>
+          <include name="signintofinops"/>
+          <include name="launchbrowser"/>
+          <include name="Verify_on_dismissing_the_Idle_resource_savings_should_be_decreased"/>
+        </methods>
+      </class> <!-- TestClass.Idle_ResourcesTestClass -->
+      <class name="TestClass.DashboardTestClass">
+        <methods>
+          <include name="signoutformfinops"/>
+          <include name="closebrowser"/>
+          <include name="verify_the_fields_and_values_shown_in_TOTALPERIODCOST_at_First_section_of_the_page"/>
+          <include name="signintofinops"/>
+          <include name="launchbrowser"/>
+        </methods>
+      </class> <!-- TestClass.DashboardTestClass -->
+    </classes>
+  </test> <!-- Test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->
